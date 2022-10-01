@@ -1,0 +1,39 @@
+.notes-header {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.note-box {
+    word-break: break-all;
+    background-color: #fbfb7f;
+}
+
+.note-input-title {
+    min-height: 4rem;
+    background-color: #fbfb7f;
+}
+
+.note-input-desc {
+    background-color: #fbfb7f;
+    min-height: 12rem;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+.greeting-text {
+    font-size: 1.7rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .newnote-input{
+        min-width: 100% !important;
+    }
+  }
+  
+  @media only screen and (min-width: 701px) {
+    .newnote-input {
+        min-width: 40% !important;
+    }
+  }
